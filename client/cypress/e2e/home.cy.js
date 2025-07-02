@@ -6,6 +6,6 @@
 describe('Home Page', () => {
   it('should load successfully', () => {
     cy.visit('http://localhost:3000/');
-   cy.get('img[alt="SocialEcho"]').should('be.visible'); // Adjust text as needed
+   cy.get('img[alt="/socialEcho/i"]').should('be.visible'); // Adjust text as needed
   });
 });

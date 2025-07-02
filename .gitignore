@@ -20,3 +20,6 @@ server/assets/*
 todo.txt
 .idea
 .vscode
+client/cypress
+client/cypress/cypress.config.js
+client/cypress/tsconfig.json
