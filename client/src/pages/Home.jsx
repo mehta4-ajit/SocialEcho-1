@@ -5,7 +5,7 @@ const Home = () => {
   const userData = useSelector((state) => state.auth?.userData);
 
   return (
-    <div className="main-section">
+    <div className="main-section 1">
       <MainSection userData={userData} />
     </div>
   );
