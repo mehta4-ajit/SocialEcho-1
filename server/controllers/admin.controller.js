@@ -99,7 +99,7 @@ const signin = async (req, res) => {
     });
     if (!existingUser) {
       return res.status(404).json({
-        message: "Invalid credentials",
+        message: "Invalid credentials for admin",
       });
     }
 
@@ -110,7 +110,7 @@ const signin = async (req, res) => {
 
     if (!isPasswordCorrect) {
       return res.status(400).json({
-        message: "Invalid credentials",
+        message: "Invalid credentials for admin",
       });
     }
     const payload = {

@@ -34,7 +34,7 @@ const db = new Database(process.env.MONGODB_URI, {
 db.connect().catch((err) =>
   console.error("Error connecting to database:", err)
 );
-app.set('trust proxy', true);
+app.set('trust proxy', 1);
 app.use(cors());
 app.use(morgan("dev"));
 app.use("/assets/userFiles", express.static(__dirname + "/assets/userFiles"));
