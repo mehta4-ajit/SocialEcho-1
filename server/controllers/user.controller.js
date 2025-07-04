@@ -57,7 +57,7 @@ const signin = async (req, res, next) => {
       );
 
       return res.status(404).json({
-        message: "Invalid credentials for users now",
+        message: "Invalid credentials for users nows",
       });
     }
 
@@ -75,7 +75,7 @@ const signin = async (req, res, next) => {
       );
 
       return res.status(400).json({
-        message: "Invalid credentials for user now",
+        message: "Invalid credentials for user nows",
       });
     }
 
